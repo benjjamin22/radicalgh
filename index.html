@@ -128,10 +128,10 @@ background-color: #077CCA;
 }
 
 .ititle{
-  font-size:clamp(32px,5vw,52px);
+  font-size:clamp(52px,5vw,52px);
   font-weight:800;
   color:white;
-  line-height: 40px;
+  line-height: 45px;
   margin-bottom: 10px;
 }
 
@@ -372,7 +372,7 @@ justify-self: center;
     <head>
 
 
-    <title>Digital ID Card Printing in Nigeria </title>
+    <title>Digital ID Card Printing in Nigeria | Radical Graphics </title>
 
     <link rel="icon" href="" type="image/x-icon"/>
 
@@ -572,17 +572,17 @@ justify-self: center;
             <section class="ccontainer">
                   <div class="cardo "data-slide="left">
                     <h2>1. Data Collection</h2>
-                    <p>Data is collected by omline form we wil provide or submitted and we then creat ID Database.</p>
+                    <p>Data is collected via online form we will provide or data is submitted manually and we then create ID Card Database.</p>
                   </div>
 
                   <div class="cardo"data-slide="right">
                     <h2>2. Qr-Code</h2>
-                    <p>Unique Qr-Code is generated for each person with unique id.</p>
+                    <p>Unique Qr-Code is generated for each person with unique id number.</p>
                   </div>
 
                   <div class="cardo "data-slide="left">
                     <h2>3. Design & Printing</h2>
-                    <p>We now design Professional ID Card based on Organization's or bring already designed template and Qr-Code is Printed on ID Card.</p>
+                    <p>We now design Professional ID Card based on Organization's brand or collect already designed template and Qr-Code is Printed on ID Card.</p>
                   </div>
 
                   <div class="cardo"data-slide="right">
@@ -634,7 +634,7 @@ justify-self: center;
 	<div class="choose" >Why choose</div>
     <div class="itopic" >RADICAL GRAPHICS</div>
     <div class="ititle">Web App for Search</div>
-    <div class="ides">With our experienced graphic designer we will deliver a sleek and attractive Id card for your organization    </div>
+    <div class="ides">We provide web app for searching and verifying from the database </div>
     <div class="ibuttons">
       <a href=" tel:08037722780">
       <button>Call Us</button>
@@ -652,7 +652,7 @@ justify-self: center;
 	<div class="choose" >Why choose</div>
     <div class="itopic" >RADICAL GRAPHICS</div>
     <div class="ititle">Online Database</div>
-    <div class="ides">With our experienced graphic designer we will deliver a sleek and attractive Id card for your organization    </div>
+    <div class="ides">We create a databse for your organization</div>
    <div class="ibuttons">
       <a href=" tel:08037722780">
       <button>Call Us</button>
@@ -670,7 +670,7 @@ justify-self: center;
 	<div class="choose" >Why choose</div>
     <div class="itopic" >RADICAL GRAPHICS</div>
     <div class="ititle">Unique Qr-Code</div>
-    <div class="ides">With our experienced graphic designer we will deliver a sleek and attractive Id card for your organization    </div>
+    <div class="ides">Qr -code for identificaion</div>
    <div class="ibuttons">
       <a href=" tel:08037722780">
       <button>Call Us</button>
@@ -687,8 +687,8 @@ justify-self: center;
   <div class="icontent">
 	<div class="choose" >Why choose</div>
     <div class="itopic" >RADICAL GRAPHICS</div>
-    <div class="ititle">Experience</div>
-    <div class="ides">With our experienced graphic designer we will deliver a sleek and attractive Id card for your organization    </div>
+    <div class="ititle">Years of Experience</div>
+    <div class="ides">You can count on our experience for seamless servics</div>
    <div class="ibuttons">
       <a href=" tel:08037722780">
       <button>Call Us</button>
@@ -764,6 +764,7 @@ justify-self: center;
       <div class="footer section-padding">
         <div class="container">
           <h1>Contact Us</h1>
+<h2 style="margin-top:-30px">+234-8037722780</h4>
           <form onsubmit="sendToWhatsApp(); return false;" class="form contact">
 
             <div class="row">
@@ -889,7 +890,30 @@ justify-self: center;
 
 });
 
- 
+      jQuery(document).ready(function($) {
+        "use strict";
+        jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({social_tools:false});
+      });
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+  function toggleMenu(){
+  document.getElementById("menu").classList.toggle("show");
+}
+
+var swiper = new Swiper(".mySwiper", {
+  loop: true,
+
+  autoplay: {
+    delay: 3000,
+  },
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 </script>
 
 
@@ -947,7 +971,7 @@ function nextSlide(){
   sliides[index].classList.add("active");
 }
 
-setInterval(nextSlide, 6000);
+setInterval(nextSlide, 2500);
 
 </script>
 <script>
